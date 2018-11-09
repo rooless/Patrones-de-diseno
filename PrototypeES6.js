@@ -17,7 +17,7 @@ class Persona
     }
 }
 
-let person = new Persona("Clark", "Kent");
+let person = new Persona("Siniakova", "Helena");
 
 person.getNombre();
 person.getApellido();
@@ -36,10 +36,10 @@ class SuperHero extends Persona
         this.getNombre();
         this.getApellido();
 
-        console.log(`Mis super poder es ${this.powers}`);
+        console.log(`Yo soy ${this.powers}`);
     }
 }
 
-let heroe = new SuperHero("Jorge", "Mendez", "Programar como loco :)");
+let heroe = new SuperHero("Helena", "Siniakova", "un poco Programar :)");
 
 heroe.getSuperHero();

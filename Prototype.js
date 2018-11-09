@@ -14,7 +14,7 @@ Persona.prototype.getNombre = function()
     console.log(`Mi nombre es ${this.nombre}`);
 };
 
-let person = new Persona("Clark", "Kent");
+let person = new Persona("Siniakova", "Helena");
 
 person.getNombre();
 person.getApellido();
@@ -32,10 +32,10 @@ SuperHero.prototype.getSuperHero = function()
     this.getNombre();
     this.getApellido();
 
-    console.log(`Mis super poder es ${this.powers}`);
+    console.log(`Yo soy ${this.powers}`);
 };
 
-let heroe = new SuperHero("Jorge", "Mendez", "Programar como loco :)");
+let heroe = new SuperHero("Helena", "Siniakova", "un poco programar :)");
 
 heroe.getSuperHero();
 
@@ -65,6 +65,6 @@ String.prototype.cleanString = function() {
     return request;
 }
 
-let cadena = "Jórge Méndéz Ortega @*#$ 1 2 3".cleanString();
+let cadena = "Héléná Siníakova".cleanString();
 console.log(cadena);
 
